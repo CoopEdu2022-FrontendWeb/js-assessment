@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/rmurphey/js-assessment.svg?branch=master)](https://travis-ci.org/rmurphey/js-assessment)
-
 # A test-driven JS assessment
 
 This repo includes a set of tests that can be used to assess the skills of
@@ -58,12 +56,6 @@ This repo uses [Mocha](https://github.com/mochajs/mocha) and
 [Chai](http://chaijs.com/) for the tests themselves. It uses the BDD style for authoring tests.
 If this doesn't suit you, please fork away, or, better, submit a pull request that lets
 this be more flexible than it currently is.
-
-# Todos
-
-There are a number of things that would make this project better; check out the
-[issues](https://github.com/rmurphey/js-assessment/issues) for details, pull
-requests welcome!
 
 # License
 
