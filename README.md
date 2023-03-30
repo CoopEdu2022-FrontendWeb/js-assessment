@@ -1,31 +1,42 @@
-# A test-driven JS assessment
+# 令人愉快的测试
 
-This repo includes a set of tests that can be used to assess the skills of
-a candidate for a JavaScript position, or to evaluate and improve one's own
-skills.
+~~这里删除了一段没有意义的废话~~
 
-## I want to work on the tests; what do I do?
-To use the tests, you will need to install [Node](https://nodejs.org/). Note
-that on Windows, there are some reports that you will need to restart
-after installing Node - see #12.
+## 如何开始
 
-You can clone or download this repo. Once you have done so, from the root
-directory of the repo, run:
+0. 保证本地有 nodejs 环境
 
-    npm install
-    npm start
+1. 在 Exam/Exam3 中，在当前目录打开终端（确保当前目录是 Exam3）
 
-You can then view the tests in your browser at
-[http://localhost:4444](http://localhost:4444).
+2. 在终端中输入
 
-When you visit that page, all of the tests should be failing; your job is to
-get the tests to pass. To do this, you'll need to refer to the tests in the
-files in the `tests/app` directory, and edit the files in the `app/` directory.
-Once you update a test, you can reload the test page in the browser to see
-whether it worked.
+    ```git clone https://github.com/CoopEdu2022-FrontendWeb/js-assessment```
 
-You can also run (most of) the tests on the command line:
+3. 回车后，会在当前目录下出现 js-assessment 文件夹
 
-    npm test
+4. 进入 js-assessment 文件夹，在当前目录打开终端，输入：
 
-The command line runner is a work in progress; contributions welcome :)
+    ```npm install```
+    
+    这一步会让项目完成配置
+
+5. 新建 vscode 窗口（new window），打开 js-assessment（保证 js-assessment 是根目录）
+
+
+6. 安装 live-preview 插件
+
+7. 此时进入项目，打开 tests/runner.html，通过右上方的预览按钮，可以显示出网页
+    
+    这时网页会有许多错误提示
+
+8. 进入 app/，里面有 arrays.js 等 3 个 js 文件，这些文件就是需要完成的内容
+    
+    文件里包含了许多函数，完成函数内容后，右侧会自动识别是否成功
+
+9. 例如，在 arrays.js 的第 5 行，添加如下代码：
+
+    ```return arr.indexOf(item, 0);```
+
+    右侧的预览就是出现一个成功的提示
+
+    如果没有，就点一下刷新按钮
